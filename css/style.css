@@ -72,6 +72,12 @@ body {
     margin: 12px 0;
     font-size: 24px;
     font-weight: 800;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card-title:hover {
+    color: hsl(47, 88%, 63%);
 }
 
 .card-desc {
